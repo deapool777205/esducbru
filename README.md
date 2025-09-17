@@ -1,60 +1,31 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruestuduc - Estude para a Prova Paulista</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="conteudos.html">Conteúdos</a></li>
+                <li><a href="simulados.html">Simulados</a></li>
+                <li><a href="analise.html">Análise</a></li>
+            </ul>
+        </nav>
+    </header>
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f9;
-    color: #333;
-}
+    <main>
+        <h1>Bem-vindo ao Bruestuduc!</h1>
+        <p>O lugar ideal para estudar para a Prova Paulista.</p>
+        <a href="conteudos.html" class="btn">Começar a Estudar</a>
+    </main>
 
-header {
-    background-color: #007BFF;
-    color: white;
-    padding: 1rem 0;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-main {
-    text-align: center;
-    padding: 2rem;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.8rem 1.5rem;
-    background-color: #28a745;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+    <footer>
+        <p>&copy; 2025 Bruestuduc. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
